@@ -213,14 +213,15 @@ voiceThree = \relative es, {
   \bar "|."
 }
 
+
 commonMidi = \midi {
   \context {
-    \Staff
-    \remove "Staff_performer"
+    \Score
+    \remove "Timing_translator"
   }
   \context {
-    \Voice
-    \consists "Staff_performer"
+     \Staff
+     \consists "Timing_translator"
   }
   \tempo 4 = 72
 }
@@ -288,7 +289,7 @@ partCommonLayout = \layout {
       }
       \new Staff \with {
         instrumentName = \markup \bold \center-column { "Trumpet" "in Es" }
-      } \transpose es c' { 
+      } \transpose es c { 
         \clef treble
         \voiceTwo
       }
@@ -327,7 +328,7 @@ partCommonLayout = \layout {
   }
   \score {
     \partCommonLayout
-    \new Staff \transpose es c' { 
+    \new Staff \transpose es c { 
       \clef treble
       \voiceTwo
     }
@@ -347,6 +348,7 @@ partCommonLayout = \layout {
   }
 }
 
+#(ly:set-option 'midi-extension "midi")
 \book {
   \score {
     \articulate <<
@@ -370,6 +372,7 @@ partCommonLayout = \layout {
   }
 }
 
+#(ly:set-option 'midi-extension "midi")
 \book {
   \score {
     \articulate <<
@@ -382,6 +385,7 @@ partCommonLayout = \layout {
   }
 }
 
+#(ly:set-option 'midi-extension "midi")
 \book {
   \score {
     \articulate <<
@@ -394,6 +398,7 @@ partCommonLayout = \layout {
   }
 }
 
+#(ly:set-option 'midi-extension "midi")
 \book {
   \score {
     \articulate <<
