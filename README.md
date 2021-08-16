@@ -23,10 +23,10 @@ Outputs
 
 ### MIDI
 
-* [BWV140-wachet_auf_ruft_uns_die_stimme.mid](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme.mid)
-* [BWV140-wachet_auf_ruft_uns_die_stimme-violin.mid](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-violin.mid)
-* [BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.mid](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.mid)
-* [BWV140-wachet_auf_ruft_uns_die_stimme-cello.mid](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-cello.mid)
+* [BWV140-wachet_auf_ruft_uns_die_stimme.midi](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme.midi)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-violin.midi](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-violin.midi)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.midi](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.midi)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-cello.midi](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-cello.midi)
 
 Link
 ----
