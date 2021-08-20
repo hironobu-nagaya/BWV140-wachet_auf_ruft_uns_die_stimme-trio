@@ -53,7 +53,7 @@ voiceOne = \relative {
   a'8( bes4) c8 es,16( d es8) r es' |
   d16 c bes8 ~ bes16 a bes8 ~ bes16 a( g f es d c bes) |
   c16( d es8) es16\trill d es8 ~ es16 a( bes c bes a g f) |
-  bes8 f d\trill c16 bes bes es( d c d8) bes |
+  bes8 f d\trill c16 bes bes( es d c d8) bes |
   g8. a16 a8.(\trill g32 a) bes4 r8 d |
   es8( f4) g8 bes,16\trill as bes8 r bes' |
   bes4 as16( g f es) f( es d c bes8) c16 d |
@@ -83,7 +83,7 @@ voiceOne = \relative {
 }
 
 voiceTwo = \relative {
-  \compressEmptyMeasures
+  
   \key es \major
   \partial 8
   r8 |
@@ -307,6 +307,34 @@ partCommonLayout = \layout {
 }
 
 \book {
+  \score {
+    \new StaffGroup <<
+      \new Staff \with {
+        instrumentName = \markup \bold \center-column { "Viola }
+      } {
+        \clef treble
+        \voiceOne
+      }
+      \new Staff \with {
+        instrumentName = \markup \bold \center-column { "Trumpet" "in Es" }
+      } \transpose es c { 
+        \clef treble
+        \voiceTwo
+      }
+      \new Staff \with {
+        instrumentName = \markup \bold \center-column { "Cello" }
+      } {
+        \clef bass
+        \voiceThree
+      }
+    >>
+    \layout {
+      indent = 2.0\cm
+    }
+  }
+}
+
+\book {
   \header {
     poet = \markup { \huge \bold "Violin" }
   }
@@ -314,6 +342,19 @@ partCommonLayout = \layout {
     \partCommonLayout
     \new Staff {
       \clef treble
+      \voiceOne
+    }
+  }
+}
+
+\book {
+  \header {
+    poet = \markup { \huge \bold "Viola" }
+  }
+  \score {
+    \partCommonLayout
+    \new Staff {
+      \clef alto
       \voiceOne
     }
   }
@@ -330,6 +371,7 @@ partCommonLayout = \layout {
     \partCommonLayout
     \new Staff \transpose es c { 
       \clef treble
+      \compressEmptyMeasures
       \voiceTwo
     }
   }

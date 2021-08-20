@@ -7,7 +7,7 @@ What is this?
 This is a source code for [LilyPond](https://lilypond.org/).  
 You can generate music scores and sheets from this.
 
-These music sheets are for a trio - violin, trumpet and cello.  
+These music sheets are for a trio - violin/viola, trumpet and cello.  
 If you can manipulate LilyPond, you can change instrument(s) easily.
 
 Outputs
@@ -16,8 +16,10 @@ Outputs
 ### Music scores and sheets (PDF)
 
 * [BWV140-wachet_auf_ruft_uns_die_stimme-original-score.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-original-score.pdf)
-* [BWV140-wachet_auf_ruft_uns_die_stimme-trio-score.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trio-score.pdf)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-trio-score-with-violin.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trio-score-with-violin.pdf)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-trio-score-with-viola.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trio-score-with-viola.pdf)
 * [BWV140-wachet_auf_ruft_uns_die_stimme-violin.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-violin.pdf)
+* [BWV140-wachet_auf_ruft_uns_die_stimme-viola.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-viola.pdf)
 * [BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-trumpet.pdf)
 * [BWV140-wachet_auf_ruft_uns_die_stimme-cello.pdf](https://github.com/hironobu-nagaya/BWV140-wachet_auf_ruft_uns_die_stimme-trio/raw/gh-pages/BWV140-wachet_auf_ruft_uns_die_stimme-cello.pdf)
 
