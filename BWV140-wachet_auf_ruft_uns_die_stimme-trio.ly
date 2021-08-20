@@ -83,7 +83,6 @@ voiceOne = \relative {
 }
 
 voiceTwo = \relative {
-  
   \key es \major
   \partial 8
   r8 |
@@ -213,7 +212,6 @@ voiceThree = \relative es, {
   \bar "|."
 }
 
-
 commonMidi = \midi {
   \context {
     \Score
@@ -310,9 +308,9 @@ partCommonLayout = \layout {
   \score {
     \new StaffGroup <<
       \new Staff \with {
-        instrumentName = \markup \bold \center-column { "Viola }
+        instrumentName = \markup \bold \center-column { "Viola" }
       } {
-        \clef treble
+        \clef alto
         \voiceOne
       }
       \new Staff \with {
@@ -395,17 +393,16 @@ partCommonLayout = \layout {
   \score {
     \articulate <<
       \new Staff <<
-        \new Voice {
-          \set midiInstrument = #"violin"
+        \new Staff {
+          \set Staff.midiInstrument = #"violin"
           \voiceOne
         }
-        \new Voice {
-          \set midiInstrument = #"trumpet"
-          \transposition es'
+        \new Staff {
+          \set Staff.midiInstrument = #"trumpet"
           \voiceTwo
         }
-        \new Voice {
-          \set midiInstrument = #"cello"
+        \new Staff {
+          \set Staff.midiInstrument = #"cello"
           \voiceThree
         }
       >>
@@ -418,8 +415,8 @@ partCommonLayout = \layout {
 \book {
   \score {
     \articulate <<
-      \new Voice {
-        \set midiInstrument = #"violin"
+      \new Staff {
+        \set Staff.midiInstrument = #"violin"
         \voiceOne
       }
     >>
@@ -431,8 +428,8 @@ partCommonLayout = \layout {
 \book {
   \score {
     \articulate <<
-      \new Voice {
-        \set midiInstrument = #"trumpet"
+      \new Staff {
+        \set Staff.midiInstrument = #"trumpet"
         \voiceTwo
       }
     >>
@@ -444,8 +441,8 @@ partCommonLayout = \layout {
 \book {
   \score {
     \articulate <<
-      \new Voice {
-        \set midiInstrument = #"cello"
+      \new Staff {
+        \set Staff.midiInstrument = #"cello"
         \voiceThree
       }
     >>
